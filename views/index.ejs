@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Quoting Dojo</title>
+    </head>
+    <body>
+        <h1>Quoting Dojo!</h1>
+        <h3>... The place where you can submit your quotes!</h3>
+        <br>
+
+        <form action='/quotes' method="post">
+
+        <label for="author">Your Name: </label>
+        <input type='text' name="author" id="author">
+        <br>
+        <label for="text">Your Quote: </label>
+        <input type='text' name="text" id="text">
+        <br>
+        <input type="submit" value="Submit My quote!">
+        </form>
+        <a href="/quotes"><p>Go to the quotes!</p></a>
+    </body>
+</html>

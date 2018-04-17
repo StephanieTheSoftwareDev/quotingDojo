@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Quoting Dojo - Quotes</title>
+    </head>
+    <body>
+        <a href="/"><sub><sup>Home</sup></sub></a>
+        <br>
+        <h1>Quotes</h1>
+        <h3>Here are all the quotes that have been submitted so far...</h3>
+        <ul>
+            <% quotes.forEach(function(quote) { %>
+            <li><%= quote.author %> - <%= quote.text %></li>
+            <% }); %>
+        </ul>
+    </body>
+</html>
